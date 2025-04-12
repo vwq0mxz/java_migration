@@ -17,10 +17,12 @@ public class UserDAOImpl implements UserDAO {
     private void initializeDatabase() {
         try (Connection conn = getConnection()) {
             Statement stmt = conn.createStatement();
-            stmt.execute("CREATE TABLE IF NOT EXISTS users (" +
-                    "id BIGINT AUTO_INCREMENT PRIMARY KEY," +
-                    "name VARCHAR(255)," +
-                    "email VARCHAR(255))");
+            stmt.execute("""
+                    CREATE TABLE IF NOT EXISTS users (\
+                    id BIGINT AUTO_INCREMENT PRIMARY KEY,\
+                    name VARCHAR(255),\
+                    email VARCHAR(255))\
+                    """);
         } catch (SQLException e) {
             throw new RuntimeException("Failed to initialize database", e);
         }

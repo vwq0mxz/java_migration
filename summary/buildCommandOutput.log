@@ -1,0 +1,28 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.example:crud-demo >------------------------
+[INFO] Building crud-demo 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ crud-demo ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ crud-demo ---
+[INFO] skip non existing resourceDirectory /ramdisk/code/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ crud-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /ramdisk/code/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ crud-demo ---
+[INFO] skip non existing resourceDirectory /ramdisk/code/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ crud-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /ramdisk/code/target/test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.679 s
+[INFO] Finished at: 2025-04-12T14:53:48Z
+[INFO] ------------------------------------------------------------------------

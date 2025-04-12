@@ -1,16 +1,17 @@
 package com.example.dao;
 
 import com.example.model.User;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
 public class UserDAOImplTest {
     private UserDAO userDAO;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         userDAO = new UserDAOImpl();
     }

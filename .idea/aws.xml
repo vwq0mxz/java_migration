@@ -14,4 +14,21 @@
       </list>
     </option>
   </component>
+  <component name="codemodernizerStates">
+    <option name="flags">
+      <map>
+        <entry key="IS_ONGOING" value="false" />
+      </map>
+    </option>
+    <option name="lastJobContext">
+      <map>
+        <entry key="LAST_JOB_ID" value="068b5973-e15e-43bf-b62f-7dd9bf56a182" />
+        <entry key="CONFIGURATION_FILE_PATH" value="$PROJECT_DIR$/pom.xml" />
+        <entry key="TARGET_JAVA_VERSION" value="17" />
+        <entry key="SOURCE_JAVA_VERSION" value="8" />
+        <entry key="TRANSFORM_CAPABILITIES" value="[EXPLAINABILITY_V1]" />
+        <entry key="CUSTOM_BUILD_COMMAND" value="clean test-compile" />
+      </map>
+    </option>
+  </component>
 </project>
